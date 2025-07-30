@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+print('hello there, Mike here');
 # Initialize client
 genai_client = Client(api_key=os.getenv("GEMINI_API_KEY"))
 
